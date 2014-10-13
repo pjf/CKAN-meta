@@ -4,7 +4,7 @@
     "identifier"     : "RSSTextures8192",
     "provides"       : [ "RSSTextures" ],
     "abstract"       : "Textures for Real Solar Systems",
-    "download"       : "https://nabaal.net/files/ksp/nathankell/RealSolarSystem/Textures/8192.zip",
+    "download"       : "http://nabaal.net/files/ksp/nathankell/RealSolarSystem/Textures/8192.zip",
     "license"        : "CC-BY-NC-SA",
     "version"        : "1.0",
     "release_status" : "stable",
