@@ -1,0 +1,18 @@
+{
+    "spec_version"   : 1,
+    "name"           : "Module Conflictor",
+    "identifier"     : "ModuleConflictor",
+    "abstract"       : "Testing mod to conflict with Module Manager. DO NOT INSTALL.",
+    "download"       : "https://ksp.sarbian.com/jenkins/job/ModuleManager/lastSuccessfulBuild/artifact/ModuleManager-2.5.1.zip",
+    "license"        : "CC-BY-SA",
+    "author"         : [ "ialdabaoth", "Sarbian" ],
+    "version"        : "2.5.1",
+    "release_status" : "stable",
+    "ksp_version"    : "0.25",
+    "install" : [
+        {
+            "file"       : "ModuleManager.2.5.1.dll",
+            "install_to" : "GameData"
+        }
+    ]
+}
