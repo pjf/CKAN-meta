@@ -1,6 +1,6 @@
 {
     "spec_version": 1,
-    "identifier": "RT2RSSSettingsFile",
+    "identifier": "RemoteTech-Config-RSS",
     "ksp_version": "0.25",
     "resources": 
     {
