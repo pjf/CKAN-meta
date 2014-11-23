@@ -14,9 +14,11 @@
     "download": "https://www.dropbox.com/s/ohqv9r9mwng2500/RemoteTech_RSS_Settings.zip?dl=1",
     "comment" : "Packaged by Felger",
     "depends" : [
-        { "name" : "RemoteTech" }
+        { "name" : "RemoteTech" },
         { "name" : "RealSolarSystem" }
     ],
+    "provides"  : [ "RemoteTech-Config" ],
+    "conflicts" : [ { "name" : "RemoteTech-Config" } ],
     "install": [{
         "file"       : "RemoteTech",
         "install_to" : "GameData"

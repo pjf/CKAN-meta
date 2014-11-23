@@ -1,7 +1,9 @@
 {
   "spec_version": 1,
-  "identifier": "RemoteTech",
+  "identifier": "RemoteTech-Config-Stock",
+  "name": "RemoteTech Config - Stock",
   "license": "restricted",
+  "author": "Remote Technologies Group",
   "release_status": "stable",
   "resources": {
     "repository": "https://github.com/RemoteTechnologiesGroup/RemoteTech",
@@ -12,10 +14,13 @@
   },
   "depends": [
     {
-      "name": "ModuleManager",
-      "min_version": "2.3.1",
-      "comment": "Earlier versions of MM have forward compatibility problems, according to the MM release notes."
-    },
+      "name": "RemoteTech"
+    }
+  ],
+  "provides": [
+    "RemoteTech-Config"
+  ],
+  "conflicts": [
     {
       "name": "RemoteTech-Config"
     }
@@ -24,13 +29,10 @@
     {
       "file": "GameData/RemoteTech",
       "install_to": "GameData",
-      "filter": "RemoteTech_Settings.cfg"
+      "comment": "This installs only the settings file",
+      "filter_retexp": "^(?!GameData/RemoteTech/RemoteTech_Settings.cfg)"
     }
   ],
-  "name": "RemoteTech",
-  "description": "RemoteTech allows you to construct vast relay networks of communication satellites and remotely controlled unmanned vehicles. Your unmanned vessels require an uplink to a command station to be controlled. This adds a new layer of difficulty that compensates for the lack of live crew members.",
-  "author": "Remote Technologies Group",
-  "x_maintained_by": "Starstrider42",
   "ksp_version": "0.25",
   "abstract": "Adds new rules for communicating with unmanned probes.",
   "version": "v1.5.1",
