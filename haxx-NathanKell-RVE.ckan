@@ -1,0 +1,20 @@
+{
+  "spec_version": 1,
+  "name": "NathanKell's RVE haxx",
+  "identifier": "NathanKell-RVE-Haxx",
+  "abstract": "Nathan's files h4xx0red by pjf for the CKAN. This may eat your system",
+  "license": "unknown",
+  "release_status": "development",
+  "author": "unknown",
+  "version": "0.0.2014.11.25",
+  "download": "https://nabaal.net/files/ksp/nathankell/RealSolarSystem/Textures/MyRVE.zip",
+  "ksp_version": "0.25.0",
+  "depends" : [ { "name" : "EVE-Overhaul-Core" } ],
+  "install" : [
+    {
+        "file" : "RVE",
+        "install_to" : "GameData"
+    }
+  ],
+  "comment" : "Haxx, obviously."
+}

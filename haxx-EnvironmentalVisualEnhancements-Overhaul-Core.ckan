@@ -1,0 +1,19 @@
+{
+  "spec_version": 1,
+  "name": "EVE Overhaul - Core",
+  "identifier": "EVE-Overhaul-Core",
+  "abstract": "EVE h4xx0red by pjf for the CKAN. This may eat your system",
+  "license": "MIT",
+  "release_status": "development",
+  "author": "rbray89",
+  "version": "0.0.2014.11.25",
+  "download": "https://github.com/rbray89/EnvironmentalVisualEnhancements/raw/Overhaul/x64-Release.zip",
+  "ksp_version": "0.25.0",
+  "install" : [
+    {
+        "file" : "GameData/EnvironmentalVisualEnhancements",
+        "install_to" : "GameData"
+    }
+  ],
+  "comment" : "Doesn't install BoulderCo. Haxx, obviously."
+}
