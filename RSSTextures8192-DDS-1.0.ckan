@@ -1,7 +1,7 @@
 {
     "spec_version"   : 1,
     "name"           : "Real Solar System Textures DDS - 8192 x 4096",
-    "identifier"     : "RSSTexturesDDS8192",
+    "identifier"     : "RSSTextures8192",
     "provides"       : [ "RSSTextures" ],
     "conflicts"      : [
         { "name" : "RSSTextures" }
