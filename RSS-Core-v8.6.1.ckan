@@ -1,0 +1,33 @@
+{
+    "spec_version": "v1.6",
+    "name": "Real Solar System - Core",
+    "identifier": "RSS-Core",
+    "abstract": "Core plugin for RealSolarSystem, for the whole RSS experience install Real Solar System",
+    "license": "CC-BY-NC-SA",
+    "release_status": "stable",
+    "depends": [
+        {
+            "name": "DDSLoader"
+        }
+    ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/55145",
+        "repository": "https://github.com/NathanKell/RealSolarSystem"
+    },
+    "install": [
+        {
+            "file": "RealSolarSystem/Plugins/RealSolarSystem.dll",
+            "install_to": "GameData/RealSolarSystem/Plugins"
+        },
+        {
+            "file": "RealSolarSystem/Plugins/Icons",
+            "install_to": "GameData/RealSolarSystem/Plugins"
+        }
+    ],
+    "author": "NathanKell",
+    "version": "v8.6.1",
+    "download": "https://github.com/NathanKell/RealSolarSystem/releases/download/v8.6.1/RealSolarSystem_v8.6.1.zip",
+    "x_generated_by": "netkan",
+    "download_size": 15562393,
+    "ksp_version": "0.90.0"
+}
